@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    color: #2c3968; 
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 120%;
+}
+
+#logo > h2 {
+    font-size: 100%;
+    text-align: center;
+}
+
+#head_logo > img {
+    width: 20%;
+    height: auto;
+}
