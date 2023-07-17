@@ -7,6 +7,9 @@ body {
     color: #3a3a3a;
 }
 
+header{
+    background-color: aqua;
+}
 /* headings and logo */
 
 h1, h2 {
@@ -34,6 +37,19 @@ h1, h2 {
     width: 20%;
     height: auto;
     float: right;
+    animation-name: driveIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+/* animation to move the car into postion */
+@keyframes driveIn {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 /*nav menu and links*/
 #menu{
