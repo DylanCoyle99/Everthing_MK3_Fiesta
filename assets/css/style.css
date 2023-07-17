@@ -17,7 +17,8 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 120%;
+    font-size: 150%;
+    text-decoration: none;
 }
 
 #logo > h2 {
@@ -25,7 +26,41 @@ h1, h2 {
     text-align: center;
 }
 
+#logo, #head_logo{
+    padding-top: 5px;
+}
+
 #head_logo > img {
     width: 20%;
     height: auto;
+    float: right;
+}
+/*nav menu and links*/
+#menu{
+    font-size: 110%;
+    letter-spacing: 3px;
+    clear: left;
+    padding-left: 3%;
+    color: inherit;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu > li{
+    float:left;
+    list-style-type: none;
+    margin-left: 3%;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+#menu a:visited{
+    color:#3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
