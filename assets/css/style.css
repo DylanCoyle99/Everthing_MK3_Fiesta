@@ -7,13 +7,15 @@ body {
     color: #3a3a3a;
 }
 
-header{
+header {
     background-color: aqua;
 }
+
 /* headings and logo */
 
-h1, h2 {
-    color: #2c3968; 
+h1,
+h2 {
+    color: #2c3968;
     text-transform: capitalize;
     letter-spacing: 3px;
 }
@@ -22,18 +24,20 @@ h1, h2 {
     float: left;
     font-size: 150%;
     text-decoration: none;
+    padding-left: 2%;
 }
 
-#logo > h2 {
+#logo>h2 {
     font-size: 100%;
     text-align: center;
 }
 
-#logo, #head_logo{
+#logo,
+#head_logo {
     padding-top: 5px;
 }
 
-#head_logo > img {
+#head_logo>img {
     width: 20%;
     height: auto;
     float: right;
@@ -41,6 +45,7 @@ h1, h2 {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
+
 /* animation to move the car into postion */
 @keyframes driveIn {
     0% {
@@ -51,32 +56,60 @@ h1, h2 {
         transform: translateX(0);
     }
 }
+
 /*nav menu and links*/
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 3px;
     clear: left;
-    padding-left: 3%;
+    padding-left: 5.5%;
     color: inherit;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
 }
 
-#menu > li{
-    float:left;
+#menu>li {
+    float: left;
     list-style-type: none;
-    margin-left: 3%;
+    margin-left: 2.5%;
 }
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-#menu a:visited{
-    color:#3a3a3a;
+
+#menu a:visited {
+    color: #3a3a3a;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*article and video styling*/
+#about_us {
+    clear: both;
+    float: left;
+    width: 35%;
+    padding: 2% 0 0 2%;
+}
+
+#about_us>h2 {
+    text-align: center;
+}
+
+#about_us>h2 {
+    text-align: center;
+}
+
+#about_us>p {
+    text-align: left;
+    font-size: 105%;
+}
+
+#video {
+    padding: 0 2% 0 2%;
+    width: 55%;
 }
