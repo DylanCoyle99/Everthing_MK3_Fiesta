@@ -113,3 +113,85 @@ h2 {
     padding: 0 2% 0 2%;
     width: 55%;
 }
+
+/*image selctor*/
+#cssImageSelector {
+    clear: both;
+    float: left;
+    padding-left: 2%;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    background-color: #2c3968;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #ccc;
+}
+/*checks if radio is checked and changes label*/
+input[type="radio"]:checked+label {
+    background-color: #ccc;
+    color: #2c3968;
+}
+
+label:hover {
+    background-color: #ccc;
+    color: #2c3968;
+}
+
+/* Image container */
+.image-holder {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* clears images */
+.image-holder div {
+    display: none;
+}
+
+/* checks if car has been checked and changes its display */
+#car1:checked~.image-holder .car1,
+#car2:checked~.image-holder .car2,
+#car3:checked~.image-holder .car3,
+#car4:checked~.image-holder .car4,
+#car5:checked~.image-holder .car5 {
+    display: block;
+}
+
+/* style rules of the image */
+.image {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #2c3968
+}
+
+.car1 {
+    background-image: url('../images/fiesta_mk3-xr2i.webp');
+}
+
+.car2 {
+    background-image: url('../images/fiesta-mk3-van.jpeg');
+}
+
+.car3 {
+    background-image: url('../images/fiesta_mk3_5door.jpg');
+}
+
+.car4 {
+    background-image: url('../images/fiesta_mk3-5door_facelift.jpg');
+}
+
+.car5 {
+    background-image: url('../images/ford_fiesta_1989_3door.webp');
+}
