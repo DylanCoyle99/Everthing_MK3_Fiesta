@@ -100,10 +100,6 @@ h2 {
     text-align: center;
 }
 
-#about_us>h2 {
-    text-align: center;
-}
-
 #about_us>p {
     text-align: left;
     font-size: 105%;
@@ -119,6 +115,7 @@ h2 {
     clear: both;
     float: left;
     padding-left: 2%;
+    padding-top: 150px;
 }
 
 input[type="radio"] {
@@ -189,9 +186,71 @@ label:hover {
 }
 
 .car4 {
-    background-image: url('../images/fiesta_mk3-5door_facelift.jpg');
+    background-image: url('../images/fiesta-rsturbo.webp');
 }
 
 .car5 {
     background-image: url('../images/ford_fiesta_1989_3door.webp');
+}
+
+/*types of fiesta style*/
+#types_fiesta {
+    float: right;
+    width: 55%;
+    padding: 2% 2% 0 0;
+}
+
+#types_fiesta>h2 {
+    text-align: center;
+}
+
+
+#types_fiesta>p {
+    text-align: left;
+    font-size: 105%;
+}
+/*footer*/
+footer{
+    clear: both;
+    height: 75px;
+    background-color:red;
+}
+
+#bottom-nav {
+    font-size: 110%;
+    letter-spacing: 3px;
+    color: inherit;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#bottom-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bottom-nav a {
+    text-decoration: none;
+}
+
+#bottom-nav li {
+    display: inline-block;
+    margin-left: 2.5%;
+}
+
+#bottom-nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#bottom-nav a:visited {
+    color: #3a3a3a;
+}
+
+#copyrigth{
+    float:right;
+    float: bottom;
+    padding: 2% 2% 0 0;
 }
