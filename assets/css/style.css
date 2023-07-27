@@ -254,3 +254,48 @@ footer{
     float: bottom;
     padding: 2% 2% 0 0;
 }
+
+/*models.html specail styling*/
+#stat1{
+    clear: both;
+    width:  100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#stat2 {
+    clear: both;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#stat3 {
+    clear: both;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.stat-img{
+    width: 32%;
+    height: 250px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3.5%;
+    border: 2px solid #2c3968
+}
+
+.stat-list{
+    width: 32%;
+    float: right;
+    margin-top: 3.5%;
+}
+
+.stat-info{
+    width: 30%;
+    float: left;
+    padding-left:1%
+}
+.stat-info > h2{
+    text-align: center;
+}
