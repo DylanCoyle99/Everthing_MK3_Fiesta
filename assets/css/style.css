@@ -106,7 +106,7 @@ h2 {
 }
 
 #video {
-    padding: 0 2% 0 2%;
+    padding: 0 3% 0 2%;
     width: 55%;
 }
 
@@ -130,6 +130,7 @@ label {
     margin-right: 5px;
     color: #ccc;
 }
+
 /*checks if radio is checked and changes label*/
 input[type="radio"]:checked+label {
     background-color: #ccc;
@@ -209,11 +210,12 @@ label:hover {
     text-align: left;
     font-size: 105%;
 }
+
 /*footer*/
-footer{
+footer {
     clear: both;
     height: 75px;
-    background-color:red;
+    background-color: red;
 }
 
 #bottom-nav {
@@ -249,25 +251,27 @@ footer{
     color: #3a3a3a;
 }
 
-#copyrigth{
-    float:right;
+#copyrigth {
+    float: right;
     float: bottom;
     padding: 2% 2% 0 0;
 }
 
 /*models.html specail styling*/
-#stat1{
+#stat1 {
     clear: both;
-    width:  100%;
+    width: 100%;
     padding-left: 2%;
     padding-right: 2%;
 }
+
 #stat2 {
     clear: both;
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
 }
+
 #stat3 {
     clear: both;
     width: 100%;
@@ -275,7 +279,7 @@ footer{
     padding-right: 2%;
 }
 
-.stat-img{
+.stat-img {
     width: 32%;
     height: 250px;
     float: left;
@@ -285,17 +289,69 @@ footer{
     border: 2px solid #2c3968
 }
 
-.stat-list{
+.stat-list {
     width: 32%;
     float: right;
     margin-top: 3.5%;
 }
 
-.stat-info{
+.stat-info {
     width: 30%;
     float: left;
-    padding-left:1%
+    padding-left: 1%
 }
-.stat-info > h2{
+
+.stat-info>h2 {
     text-align: center;
+}
+
+/*projects css*/
+#user_images {
+    width: 33%;
+    height: 550px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #2c3968;
+    background-image: url('../images/projects/Snapchat-80557369.jpg');
+    margin-left: 2%;
+    margin-top: 6%;
+
+}
+
+
+#users_car {
+    clear: both;
+    float: left;
+    width: 35%;
+    padding: 2% 0 0 2%;
+}
+
+#users_car>h2 {
+    text-align: center;
+}
+
+#users_car>p {
+    text-align: left;
+    font-size: 105%;
+}
+
+#user_prog {
+    float: right;
+    width: 60%;
+    padding: 2% 2% 0 0;
+}
+
+#user_prog>h2 {
+    text-align: center;
+}
+
+
+#user_prog>p {
+    text-align: left;
+    font-size: 105%;
+}
+
+section {
+    clear: both;
 }
