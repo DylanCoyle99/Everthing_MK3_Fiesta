@@ -258,6 +258,14 @@ footer {
     padding: 2% 2% 0 0;
 }
 
+#footer_image{
+    float: left;
+    width: 50px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
 /*models.html specail styling*/
 #stat1 {
     clear: both;
@@ -390,4 +398,25 @@ section {
     font-weight: bold;
 }
 
-/* sign up page*/
+/* gallery page*/
+#gallery-info{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+}
+#gallery-info h2{
+    text-align: center;
+}
+#gallery-info span{
+    font-weight: bold;
+}
+#gallery {
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery img{
+    width: 100%;
+    height: auto;
+}
