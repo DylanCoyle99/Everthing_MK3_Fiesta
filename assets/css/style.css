@@ -5,12 +5,18 @@
 
 body {
     color: #3a3a3a;
+    background-color: #d6d4d0;
+    font-size: 115%;
 }
 
 header {
-    background-color: aqua;
+    background-color: #2c3968;
+    padding: 10px;
+    height: 100px;
 }
-
+header h1,header h2{
+    color: whitesmoke;
+}
 /* headings and logo */
 
 h1,
@@ -19,6 +25,8 @@ h3 {
     color: #2c3968;
     text-transform: capitalize;
     letter-spacing: 3px;
+    font-family: VT323,sans-serif;
+    font-size: 200%;
 }
 
 #logo {
@@ -78,15 +86,15 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #menu a:visited {
-    color: #3a3a3a;
+    color: #2b5eb1;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #2b5eb1;
 }
 
 /*article and video styling*/
@@ -215,14 +223,14 @@ label:hover {
 /*footer*/
 footer {
     clear: both;
-    height: 75px;
-    background-color: red;
+    height: 100px;
+    background-color: #3a3a3a;
 }
 
 #bottom-nav {
     font-size: 110%;
     letter-spacing: 3px;
-    color: inherit;
+    color: whitesmoke;
     text-align: center;
     padding-top: 25px;
 }
@@ -245,47 +253,48 @@ footer {
 }
 
 #bottom-nav a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #bottom-nav a:visited {
-    color: #3a3a3a;
+    color: #2b5eb1;
 }
 
 #copyrigth {
     float: right;
     float: bottom;
     padding: 2% 2% 0 0;
+    color: whitesmoke;
 }
 
-#footer_image{
+#footer_image  img{
     float: left;
-    width: 50px;
-    height: 100px;
+    width: 150px;
+    height: auto;
     object-fit: contain;
-
+    margin-right: 10px; 
 }
 
 /*models.html specail styling*/
 #stat1 {
     clear: both;
     width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #stat2 {
     clear: both;
     width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #stat3 {
     clear: both;
     width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .stat-img {
@@ -302,12 +311,13 @@ footer {
     width: 32%;
     float: right;
     margin-top: 3.5%;
+    margin-right: 2.5%;
 }
 
 .stat-info {
     width: 30%;
     float: left;
-    padding-left: 1%
+    margin-left: 2%;
 }
 
 .stat-info>h2 {
