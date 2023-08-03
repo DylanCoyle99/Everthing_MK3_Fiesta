@@ -537,6 +537,18 @@ gallery page
         padding: 2% 0 0 2%;
         margin-right: 2%;
     }
+    #user_images {
+        width: auto;
+        height: 550px;
+        float: none;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #user_prog {
+        float: none;
+        width: auto;
+        padding: 2% 2% 0 2%;
+    }
     .featured-info{
         width: auto;
         float: none;
