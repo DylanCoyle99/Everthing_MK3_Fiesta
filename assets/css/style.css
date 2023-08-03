@@ -115,8 +115,10 @@ h3 {
 }
 
 #video {
+    display: flex;
     padding: 0 3% 0 2%;
     width: 55%;
+    margin-top: 20px;
 }
 
 /*image selctor*/
@@ -430,3 +432,53 @@ section {
     width: 100%;
     height: auto;
 }
+
+/* media enquerys */
+@media only screen and (max-width: 1200px) {
+    #about_us {
+        width: auto;
+        margin-bottom: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #video {
+        display: flex;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 0 0.5% 0 2%;
+        width: auto;
+    }
+    #types_fiesta {
+        clear: both;
+        width: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+/*css image selector move*/
+    #cssImageSelector {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .image-holder {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin: 0 4% 0 2%;
+    }
+
+    .image {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #2c3968;
+        margin: 5px;
+    }
+
+  }
