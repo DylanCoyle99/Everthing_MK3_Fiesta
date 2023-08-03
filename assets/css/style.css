@@ -12,7 +12,7 @@ body {
 header {
     background-color: #2c3968;
     padding: 10px;
-    height: 100px;
+    height: 110px;
 }
 header h1,header h2{
     color: whitesmoke;
@@ -277,7 +277,11 @@ footer {
     margin-right: 10px; 
 }
 
-/*models.html specail styling*/
+/*
+--------------------------
+models.html specail styling
+---------------------------
+*/
 #stat1 {
     clear: both;
     width: 100%;
@@ -326,7 +330,11 @@ footer {
     text-align: center;
 }
 
-/*projects css*/
+/*
+--------------------
+projects css
+--------------------
+*/
 #user_images {
     width: 33%;
     height: 550px;
@@ -410,7 +418,11 @@ section {
     font-weight: bold;
 }
 
-/* gallery page*/
+/*
+------------------- 
+gallery page
+-------------------
+*/
 #gallery-info{
     margin-left: 2%;
     margin-right: 2%;
@@ -433,8 +445,17 @@ section {
     height: auto;
 }
 
-/* media enquerys */
+/*
+------------------------------
+ media querys
+ ----------------------------
+*/
 @media only screen and (max-width: 1200px) {
+    /*
+    ------------------
+    index.html
+    ------------------
+    */
     #about_us {
         width: auto;
         margin-bottom: 15px;
@@ -480,5 +501,28 @@ section {
         border: 2px solid #2c3968;
         margin: 5px;
     }
-
+    /*
+    ------------------------
+    models.html
+    ------------------------
+    */
+    .stat-img {
+        width: auto;
+        height: 600PX;
+        margin-right: 4%;
+        float: none;
+    }
+    .stat-list {
+        width: auto;
+        float: none;
+        margin-right: 4%;
+        margin-left: 2%;
+    }
+    
+    .stat-info {
+        width: auto;
+        float: none;
+        margin-left: 2%;
+        margin-right: 4%;
+    }
   }
